@@ -40,10 +40,9 @@ postgres:
   password:
 
 init:
-  image:
-    repository: docker.io/activiti/runtime-bundle
-    tag: 7.1.234
-    pullPolicy: IfNotPresent
+  container:
+    image: alpine:3.8
+    imagePullPolicy: IfNotPresent
 
 ## Allows the specification of additional environment variables
 extraEnv: |
