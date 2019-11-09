@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   demo-workflow-rb:
   - apiVersion: v1
-    created: "2019-11-08T19:14:07.604897+09:00"
-    description: A runtime-bundle demo Helm chart for Kubernetes
-    digest: 157c501baed369c1993450141e629846bbe5bb7fbf113a70ae69c7463cc6a8e5
+    created: "2019-11-09T12:01:00.250751+09:00"
+    description: A demo-workflow-rb Helm chart for Kubernetes
+    digest: 501c93fcbec31640e6e2b1b21f609da7ba5049791adf7d205b3c7090d43117e6
     icon: https://salaboy.files.wordpress.com/2018/01/acitiviti_icon_fullcolor_github_400x400.png
     name: demo-workflow-rb
     urls:
     - https://udragon-ck.github.io/ud-helm-repo/demo-workflow-rb-0.0.1.tgz
     version: 0.0.1
-generated: "2019-11-08T19:14:07.604142+09:00"
+generated: "2019-11-09T12:01:00.24842+09:00"
