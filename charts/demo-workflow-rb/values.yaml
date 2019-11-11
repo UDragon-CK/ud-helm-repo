@@ -39,10 +39,17 @@ postgres:
   username: postgres
   password:
 
+#init:
+#  container:
+#    image: alpine:3.8
+#    imagePullPolicy: IfNotPresent
+
 init:
-  container:
-    image: alpine:3.8
-    imagePullPolicy: IfNotPresent
+ image:
+   repository: udragon/demo-workflow-rb
+   tag: latest
+   pullPolicy: IfNotPresent
+
 
 ## Allows the specification of additional environment variables
 extraEnv: |
