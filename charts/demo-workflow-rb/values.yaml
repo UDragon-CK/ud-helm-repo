@@ -39,17 +39,10 @@ postgres:
   username: postgres
   password:
 
-#init:
-#  container:
-#    image: alpine:3.8
-#    imagePullPolicy: IfNotPresent
-
 init:
- image:
-   repository: udragon/demo-workflow-rb
-   tag: latest
-   pullPolicy: IfNotPresent
-
+  container:
+    image: udragon/demo-workflow-rb
+    imagePullPolicy: Always
 
 ## Allows the specification of additional environment variables
 extraEnv: |
@@ -71,7 +64,7 @@ javaOpts:
 image:
   repository: udragon/demo-workflow-rb
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 service:
   type: ClusterIP
   externalPort: 80
