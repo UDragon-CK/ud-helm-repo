@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   dorothy-workflow-connector:
   - apiVersion: v1
-    created: "2019-11-20T20:02:07.964621+09:00"
+    created: "2019-11-29T14:07:10.662519+09:00"
     description: Dorothy-workflow-connector Helm chart for Kubernetes
-    digest: 30991b52d2b97a15f537b4bc30946e8a0409dcd5df40fa4ccba8612c083db613
+    digest: ef9b2d3ce660eb7998d626ee19459d1b78e1834b6577f19dc331ad5da1933a38
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
     name: dorothy-workflow-connector
     urls:
@@ -12,7 +12,7 @@ entries:
     version: 0.0.1
   dorothy-workflow-rb:
   - apiVersion: v1
-    created: "2019-11-20T20:02:07.966166+09:00"
+    created: "2019-11-29T14:07:10.664303+09:00"
     description: Dorothy-workflow-rb Helm chart for Activiti Cloud Runtime Bundle
       Example
     digest: 928dca3e34331aca07c6612d9132797e76a31657cd9bb94d937a2953051beffa
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://udragon-ck.github.io/ud-helm-repo/dorothy-workflow-rb-0.0.1.tgz
     version: 0.0.1
-generated: "2019-11-20T20:02:07.963078+09:00"
+generated: "2019-11-29T14:07:10.659537+09:00"
